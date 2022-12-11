@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    width: 100vw;
+    box-shadow: 1px 1px 15px red;
+}
+#icon{
+    width: 70px;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 8vw;
+}
+.search{
+    margin-top: 28px;
+    width: 86vw;
+    text-align: center;
+}
+.options-nav{
+    display: flex;
+}
+.options-nav-profile, .options-nav-options{
+    border: 1px solid black;
+    border-radius: 34px;
+    padding: 3px 7px;
+    margin: 2px;
+}
+.options-nav-options:hover,.options-nav-profile:hover{
+    background-color: rgb(231, 231, 231);
+}
+.play-list-music{
+    
+}
+.play-list-music-table{
+    
+}
