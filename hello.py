@@ -1,11 +1,43 @@
-num = int(input("Ingresa un 1 si estas registrado en la pase de datos, sino ingresa un 0: "))
-name = input("Name: ")
-lasName = input("Lasname: ")
+# Define a list of names.
+names = ["Harry", "Ron", "Hermione", "Ginny"]
 
-if num > 0:
-    print(name + " " + lasName)
-    
-else: 
-    print("Lo siento, no estas en mi base de datos")
+print(names)
 
-hola = input("parar consola.")
+names.append("Draco")
+
+print(names)
+
+# Create en empty set
+
+s = set()
+
+# Add elements to set
+
+s.add(1)
+s.add(2)
+s.add(3)
+s.add(4)
+s.add(5)
+s.add(6)
+
+print(s)
+
+#Intento de algo.
+
+# Number of the players
+n = int(input("Players: "))
+
+# List the players
+playerlist = set()
+
+# input for the names of players
+for i in range(n):
+    players = input(f"Name for player {i}: ")
+    i +=1
+    playerlist.add(players)
+
+# print list
+print("These are the players for now")
+print(playerlist)
+
+# This experiment went well.
